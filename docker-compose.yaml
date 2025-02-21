@@ -1,0 +1,12 @@
+services:
+  test:
+    container_name: test
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/ros2_ws/src/test_ros2_package  
+    command: bash
+    tty: true
+    stdin_open: true
+    working_dir: /ros2_ws
