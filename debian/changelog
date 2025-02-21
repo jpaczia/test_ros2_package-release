@@ -1,0 +1,8 @@
+ros-humble-test-ros2-package (0.0.1-1jammy) jammy; urgency=high
+
+  * Setup test ros2 package
+  * Contributors: Jonas Paczia, jpaczia
+
+ -- root <root@todo.todo>  Fri, 21 Feb 2025 00:00:00 -0000
+
+
